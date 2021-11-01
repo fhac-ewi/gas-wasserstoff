@@ -22,3 +22,8 @@ Führen Sie das Modell nun mit verschiedenen CO2-Beschränkungen aus. Innerhalb 
 - -90 % 
 - -95 % 
 - -100 % 
+
+
+Dieses Projekt entstand auf Basis des Beispiels
+https://github.com/FZJ-IEK3-VSA/FINE/tree/master/examples/Multi-regional_Energy_System_Workflow
+von dem Projekt FINE!
