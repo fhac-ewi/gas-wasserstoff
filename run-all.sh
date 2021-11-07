@@ -4,9 +4,16 @@ co2_arr=(0.75 0.8 0.85 0.9 0.95 1)
 
 temp="Temp.ipynb"
 
+
+# Clear results, notebooks and images folder
+rm -rf "./results"
+rm -rf "./notebooks"
+rm -rf "./images"
+
 # Create folder for generated notebooks
 notebook_folder="./notebooks"
 mkdir -p "$notebook_folder"
+
 
 # Generate notebooks
 for i in "${co2_arr[@]}"
